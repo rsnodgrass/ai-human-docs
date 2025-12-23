@@ -1,0 +1,20 @@
+# Documentation Audiences
+
+Before editing any documentation file, check for `<!-- doc-audience: ... -->` on line 1.
+
+## Tag meanings:
+- `<!-- doc-audience: human, preserve-voice -->` - Human doc. DO NOT edit, expand, or rephrase.
+- `<!-- doc-audience: human, ai-editable -->` - Human doc. May edit, but preserve concise voice.
+- `<!-- doc-audience: ai -->` - AI doc. Edit freely, be verbose and explicit.
+
+## Default behavior:
+- Files in `docs/human/` - Treat as human, preserve-voice
+- Files in `docs/ai/` - Treat as ai
+- Other locations - Ask before editing documentation files
+
+## Commit messages:
+When editing docs, list which files you edited:
+```
+Docs edited:
+- path/to/file.md (ai)
+```

@@ -1,0 +1,17 @@
+## Document Audience
+
+Before editing any file, check for `<!-- doc-audience: ... -->` on line 1:
+
+- `human, preserve-voice` — Do NOT edit, expand, or rephrase
+- `human, ai-editable` — May edit, but preserve concise human voice
+- `ai` — Edit freely, be verbose and explicit
+
+**Directory routing:** Files in `docs/human/` default to preserve-voice. Files in `docs/ai/` are editable.
+
+**Commit messages:** When editing docs, list which files you edited:
+```
+Docs edited:
+- path/to/file.md (ai)
+```
+
+See [ai-human-docs](https://github.com/modern-tooling/ai-human-docs) for full specification.
