@@ -185,21 +185,6 @@ See:
 - https://raw.githubusercontent.com/modern-tooling/ai-human-docs/main/SPEC.md (parsing)
 ```
 
-### 5.4 Security: Locking to a Specific Version
-
-The examples above reference the `main` branch of this repository. This means agent behavior guidance could change over time as the standard evolves.
-
-**For teams requiring stability guarantees:**
-
-1. Fork this repository
-2. Point your agent configuration to your fork instead:
-   ```
-   https://raw.githubusercontent.com/YOUR-ORG/ai-human-docs/main/AGENTS-GUIDANCE.md
-   ```
-3. Review and merge upstream changes on your schedule
-
-This ensures no unexpected changes to agent guidance. You control when (or if) to adopt updates.
-
 ---
 
 ## 6. Decision Tree

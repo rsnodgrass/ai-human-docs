@@ -2,9 +2,8 @@
 
 # ai-human-docs Specification
 
-**Version:** 1.0.0
+**Version:** 1.0.0 (2025-12-24)
 **Status:** Stable
-**Last Updated:** 2024
 
 This specification defines the **ai-human-docs** standard for tagging documentation files by intended audience (human or AI) and editing permissions.
 
@@ -535,11 +534,11 @@ For `ai`-audience documents, use this structure:
 
 ## 14. Versioning
 
-This specification uses semantic versioning.
+This specification uses semantic versioning with date stamps.
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.0 | Stable | Initial release |
+| Version | Date | Status | Notes |
+|---------|------|--------|-------|
+| 1.0.0 | 2025-12-24 | Stable | Initial release |
 
 ---
 

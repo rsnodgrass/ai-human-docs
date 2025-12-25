@@ -4,6 +4,8 @@
 
 # AI–Human Docs
 
+**Standard Version:** 1.0.0 (2025-12-24)
+
 **Keep documentation truly readable for humans — while still giving AI coding agents the verbose structure they need.**
 
 **Quick start:** Add this to your `AGENTS.md` or `CLAUDE.md`:
@@ -157,6 +159,23 @@ Teams who:
 
 Everything pragmatic. Everything optional.
 Adopt gradually or fully — both work.
+
+---
+
+## Want stability? Fork it.
+
+The examples above reference the `main` branch of this repository. This means agent behavior guidance could change over time as the standard evolves.
+
+**For teams requiring stability guarantees:**
+
+1. Fork this repository
+2. Point your agent configuration to your fork instead:
+   ```
+   https://raw.githubusercontent.com/YOUR-ORG/ai-human-docs/main/AGENTS-GUIDANCE.md
+   ```
+3. Review and merge upstream changes on your schedule
+
+This ensures no unexpected changes to agent guidance. You control when (or if) to adopt updates.
 
 ---
 
